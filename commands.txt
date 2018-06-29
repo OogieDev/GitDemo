@@ -1,0 +1,6 @@
+git branch [new name branch] - created new branch
+git branch - Выводит название текущей ветки
+git checkout [имя ветки] - перепрыгиваем на другую ветку
+git checkout -b [new name branch] - создается новая ветка и сразу же перепрыгивает на нее
+git branch - d [имя ветки] - удаляет ветку
+git merge [имя ветки] - сливает текущую с указанной веткой

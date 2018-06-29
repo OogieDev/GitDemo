@@ -1,0 +1,94 @@
+@import "vars"
+
+
+
+body
+	font-family: $fontRegular
+	background-color: red
+
+.bg_main
+	background-color: $main-color
+
+
+
+.navbar-nav
+	color: #fff
+	.nav-item
+		margin-left: $gutter
+		&:first-child
+			margin-left: 0
+		span
+			cursor: pointer
+			&:hover
+				color: lighten($main-color, 80%)
+
+
+.navbar
+	width: 100%
+	left: 0
+	top: 0
+	
+	.navbar-brand
+		color: #Fff
+		&:hover
+			color: lighten($main-color, 80%)
+
+
+#section1
+	position: relative
+	min-height: 92vh
+	.section1__title
+		padding-top: 35vh
+		h1
+			font-size: 50px
+			font-weight: 700
+			color: #fff
+		h2
+			transition: 0.5s margin-top ease
+			display: inline-block
+			color: #fff
+			cursor: pointer
+			font-size: 100px
+			margin-top: 40px
+			&:hover
+				margin-top: 60px
+
+.bg_image
+	top: 0
+	left: 0
+	position: absolute
+	background: url('../img/bg.jpg');
+	height: 100%
+	width: 100%
+	background-size: cover
+	z-index: -1
+	&:after
+		content: ''
+		position: absolute
+		width: 100%
+		height: 100%
+		background-color: $dark-color
+		opacity: 0.75
+
+
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px)
+	/**/ 
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+	/**/
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)
+	/**/
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px)
+	/**/
+
