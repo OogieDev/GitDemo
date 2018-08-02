@@ -7,3 +7,11 @@ git merge [имя ветки] - сливает текущую с указанн�
 
 2hoBhbs68s
 admin_zer
+
+
+Cc: asd-novik@mail.ru
+Bcc: asd-novik@mail.ru
+Cc: artem@magnetika.su
+Bcc: artem@magnetika.su
+Cc: kosolapus@gmail.com
+Bcc: kosolapus@gmail.com
